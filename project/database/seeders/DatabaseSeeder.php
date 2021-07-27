@@ -16,12 +16,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         DB::table('categories')->insert([
-            ['category_id' => '1', 'name' => Str::random(15), 'description' => Str::random(10)],
-            ['category_id' => '2', 'name' => Str::random(15), 'description' => Str::random(10)],
-            ['category_id' => '3', 'name' => Str::random(15), 'description' => Str::random(10)],
-            ['category_id' => '4', 'name' => Str::random(15), 'description' => Str::random(10)],
-            ['category_id' => '5', 'name' => Str::random(15), 'description' => Str::random(10)],
-            ['category_id' => '6', 'name' => Str::random(15), 'description' => Str::random(10)],
+            ['id' => '1', 'name' => Str::random(15), 'description' => Str::random(10)],
+            ['id' => '2', 'name' => Str::random(15), 'description' => Str::random(10)],
+            ['id' => '3', 'name' => Str::random(15), 'description' => Str::random(10)],
+            ['id' => '4', 'name' => Str::random(15), 'description' => Str::random(10)],
+            ['id' => '5', 'name' => Str::random(15), 'description' => Str::random(10)],
+            ['id' => '6', 'name' => Str::random(15), 'description' => Str::random(10)],
         ]);
 
         DB::table('news')->insert([
