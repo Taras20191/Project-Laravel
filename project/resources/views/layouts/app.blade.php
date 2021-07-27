@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title-block')</title>
 </head>
-
 <body>
 @yield('content')
 </body>
